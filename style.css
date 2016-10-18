@@ -6,7 +6,7 @@
 		float: left;
 		width: 200px;
 		z-index: 10000;
-		background: red;
+		background: #2D5199;
 		color: white;
 		box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		transform: translateX(100%);
