@@ -33,7 +33,7 @@ $(document).ready(function(){
   });
 
    $("#content").on('click', function(event) {
-   		 document.getElementById('menu-btn').checked = false;
+   		 document.getElementById('menu-ctrl').checked = false;
    });
 
 
