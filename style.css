@@ -50,7 +50,35 @@
 }
 
 .card {
-	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-	margin: 10px;
+	width: 100%;
+	box-shadow: 0 1px 2px grey;
+	padding: 10px;
+}
+
+.front {
+	transition: opacity 1s;
+}
+
+.back {
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	margin: 10px; 
+	padding: 15px;
+	opacity: 0;
+	transition: opacity 1s;
+	height: calc(100% - 20px);
+	overflow-y: auto;
+}
+
+.card:hover > .front {
+	opacity: 0;
+	
+}
+
+.card:hover > .back {
+	opacity: 1;
+	background: #2D5199;
+	color: white;
 }
 
