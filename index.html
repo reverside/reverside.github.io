@@ -1,173 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Reverside</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Reverside</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body data-spy="scroll" data-target=".menu" data-offset="60">
 
 
-	  <input id="menu-ctrl" type="checkbox"/>
-	  <div class="navbar navbar-inverse menu menu-bar" >
-	    <div class="menu-btn">
-	      	<label for="menu-ctrl">&#10094;&#10094;</label>
-	    </div>
-	    <ul class="nav navbar-nav menu-list">
-	        <li><a href="#welcome">WELCOME</a></li>
-	        <li><a href="#about">ABOUT</a></li>
-	        <li><a href="#services">SERVICES</a></li>
-	        <li><a href="#portfolio">PORTFOLIO</a></li>
-	        <li><a href="#pricing">PRICING</a></li>
-	        <li><a href="#contact">CONTACT</a></li>
-	    </ul>
-	  </div>
- 
+<input id="menu-ctrl" type="checkbox"/>
+<div class="navbar navbar-inverse menu menu-bar" >
+    <div class="menu-btn">
+        <label for="menu-ctrl">&#10094;&#10094;</label>
+    </div>
+    <ul class="nav navbar-nav menu-list">
+        <li><a href="#welcome">WELCOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+</div>
+
 
 <div id="content">
-  
-  <div id="welcome" class="container-fluid" style="padding-top: 80px; padding-bottom: 10px;">
-    
-    <div class="row">
-      <div class="col-md-3"></div>
-	  <div class="col-md-6 text-center" >
-	    <h1 style="font-size:3pc; color: #2D5199;">re<font style="color: #AE0C14;">v</font>erside</h1>
-	    <h4 style="font-size:1pc; color: silver;">a fresh persepctive into consulting</h4>
-	    <form class="form-inline">
-	      <div class="form-group">
-		    <input type="email" class="form-control" size="50" placeholder="Email Address">
-		  </div>
-		  <div class="form-group">
-		    <button type="button" class="btn btn-danger">Subscribe</button>
-	      </div>
-		</form>
-	  </div>
-	</div>  
-	  
-	<div class="row" style="margin-top:50px; color: white; opacity: 0.7" >
-	  <div class="col-md-3"></div>
-	  <div class="col-md-3 col-sm-12 col-xs-12" style="padding: 10px 15px 10px 15px;">
-	  	<div class="card text-center" style="background: #2D5199; padding: 80px 0px 80px 0px;">
-	  		<span style="font-size: 35px; letter-spacing: 3px;">DEVELOPING INNOVATIVE STRATEGIES</span>
-	  	</div>
-	  </div>
-	  <div class="col-md-3 col-sm-12 col-xs-12" style="padding: 10px 15px 10px 15px;">
-	  	<div class="card text-center" style="background: #AE0C14; padding: 80px 15px 80px 15px;">
-	  		<span style="font-size: 35px; letter-spacing: 3px;">SOLVING COMPLEX PROBLEMS</span>
-	  	</div>
-	  </div>
-	</div>
-	
-  </div>
+   <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 no-padding" >
+
+                <div class="card">
+                    <input type="checkbox" class="card-side-ctrl" id='card_1_rotate'>
+                    <div class="card-front">
+                        <div class="card-header">
+                            <!-- Header if any-->
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="xyz" id="a" class="card-section-ctrl" checked>
+                            <div class="card-section img_business_transformation" style="color: white;">
+                                <div class="card-content">
+                                    <h1>Business Transformation</h1>
+                                    <br><br><br><br>
+                                    <button class="btn btn-info">
+                                        <label for='card_1_rotate' >Know More</label>
+                                    </button>
+                                </div> <!-- end : card-content-->
+                            </div> <!-- end: card-section-->
+                        </div> <!-- end : card-body -->
+                        <div class="card-footer">
+                            <!-- Footer if any -->
+                        </div>
+                    </div> <!-- end :card-front -->
+                    <div class="card-back" >
+                        <div class="card-header text-center">
+                            <label for='card_1_rotate' class="card-close"> &#10060;</label>
+                        </div>
+                        <div class="card-body">
+                            <input type="radio" name="bts" id="bts_1" class="card-section-ctrl" checked="checked"/>
+                            <div class="card-section" >
+                                <div>
+                                    <div style="padding: 0px 20px 0px 10px;">
+                                        <h4>Business Process Management</h4>
+                                    </div>
+                                </div>
+                                <input type="checkbox" id="sec1" class="card-content-ctrl" />
+                                <div class="card-content">
+                                    <img  class="image_2_1" width ="100%" height="40%">
+                                    <p style="padding: 5px;">
+                                        Want to exceed your client expectations?Want to respond to changing consumer,
+                                        market, and regulatory demands faster than your peers?
+                                    </p>
+                                    <label for="sec1">Read More</label>
+                                </div>
+                                <input type="checkbox" id="sec2" class="card-content-ctrl" />
+                                <div class="card-content">
+                                    <div><label for="sec1">&#9650;</label></div>
+                                    <p style="padding: 5px;">
+                                        Want to respond to changing consumer, market, and regulatory demands faster
+                                        than your peers?<br>Want to connect the LOBs to the IT department within your
+                                        organization?
+                                    </p>
+                                    <div><label for="sec2">&#9660;</label></div>
+                                </div>
+                                <input type="checkbox" id="sec3" class="card-content-ctrl" />
+                                <div class="card-content">
+                                    <div><label for="sec2">&#9650;</label></div>
+                                    <p style="padding: 5px;">
+                                        We has the know-how with its Business Process Management service offerings.
+                                        We can help in reduction of human errors and miscommunication and
+                                        focus stakeholders on the requirements of their role thus making
+                                        organization's workflow more effective, efficient and capable of adapting
+                                        to an ever-changing environment.
+                                    </p>
+                                    <div><label for="sec3">&#9660;</label></div>
+                                </div>
+                                <input type="checkbox" id="sec4" class="card-content-ctrl" />
+                                <div class="card-content">
+                                    <div><label for="sec3">&#9650;</label></div>
+                                    <h4> How we do it? </h4>
+                                    <p style="padding: 5px;">
+                                        By Aligning corporate strategy with business processes.
+                                        By Identifying the key business drivers and processes By
+                                        Modeling, Analyzing and optimizing the key processes By
+                                        Automating the processes and monitoring to improve business
+                                        performance.
+                                    </p>
+
+                                </div>
+                                <div style="position: absolute; bottom: 0px; text-align: center; width: 100%;">
+                                    <label for="bts_1" style="font-size: 32px;"> &#9679; </label> &nbsp;&nbsp;
+                                    <label for="bts_2" style="font-size: 32px;"> &#9675; </label> &nbsp;&nbsp;
+                                    <label for="bts_3" style="font-size: 32px;"> &#9675; </label>
+                                </div>
+                            </div>
+                            <input type="radio" name="bts" id="bts_2" class="card-section-ctrl" >
+                            <div class="card-section" style="word-wrap: break-word;">
+                                <div class="card-content">
+                                    <img class="image_2_2" style="width: 100%; height: 50%;">
+                                    <div style="padding: 10px 20px 0px 10px;"><h4>Enterprise Resource Planning</h4></div>
+                                    <p style="padding: 5px;">
+                                        Accounting and financial applications, Procurement,Order Processing and
+                                        Supplier Management,Inventory management, HR management and Payroll Functions.
+                                    </p>
+                                    <div style="position: absolute; bottom: 0px; text-align: center; width: 100%;">
+                                        <label for="bts_1" style="font-size: 32px;"> &#9675; </label> &nbsp;&nbsp;
+                                        <label for="bts_2" style="font-size: 32px;"> &#9679; </label> &nbsp;&nbsp;
+                                        <label for="bts_3" style="font-size: 32px;"> &#9675; </label>
+                                    </div>
+                                </div> <!-- end: card-content -->
+                            </div> <!-- end: card-section -->
+                            <input type="radio" name="bts" id="bts_3" class="card-section-ctrl" >
+                            <div class="card-section" style="word-wrap: break-word;">
+                                <div class="card-content">
+                                    <img class="image_2_3" style="width: 100%; height: 50%;">
+                                    <div style="padding: 10px 20px 0px 10px;">
+                                        <h4>Business Process Re-engineering</h4>
+                                    </div>
+                                    <p style="padding: 5px;">
+                                        Looking for a manifold increase instead of a small percentage improvement?
+                                        Ready to reinvent from scratch?
+                                    </p>
+                                    <div style="position: absolute; bottom: 0px; text-align: center; width: 100%;">
+                                        <label for="bts_1" style="font-size: 32px;"> &#9675; </label> &nbsp;&nbsp;
+                                        <label for="bts_2" style="font-size: 32px;"> &#9675; </label> &nbsp;&nbsp;
+                                        <label for="bts_3" style="font-size: 32px;"> &#9679; </label>
+                                    </div>
+                                </div> <!-- end: card-content-->
+                            </div> <!-- end: card-section -->
+                        </div>
+                        <div class="card-footer text-center">
+                            <!--  <label for='def'>C L O S E</label> -->
+                        </div>
+                    </div> <!-- /wallet-back -->
+
+                </div> <!-- /col -->
+            </div> <!-- /row -->
+        </div> <!-- /container -->
 
 
-
-
-	<!-- Container (About Section) -->
-	<div id="about" class="container-fluid" >
-	   <div class="row">
-	   		<div class="col-md-12 text-center">
-	   		<br>
-	   			<h2>ABOUT US</h2>
-	   			<br><br>
-	   		</div>
-	   </div>
-	   <div class="row">
-	   		<div class="col-md-3">
-	   		</div>
-	   		<div class="col-md-6 text-center">
-	   			<p style='padding: 10px 15px 10px 15px; font-size: 16px; color: silver; font-family: Arial,sans-serif; line-height: 30px;letter-spacing: 2px;text-rendering: optimizeLegibility;text-size-adjust: initial;'>
-	        	 We are a software company and a community of passionate, purpose-led individuals. We think disruptively to deliver technology to address our clients' toughest challenges, all while seeking to revolutionize the IT industry and create positive social change.
-	        	</p>
-	   		</div>
-	   </div>
-	   <div class="row" style="font-size: 14px; line-height: 25px; letter-spacing: 1px;">
-	        <div class="col-md-3">
-	   		</div>
-	   	    <div class="col-md-2 text-center" style="padding: 10px 10px 10px 10px;">
-	   	    	<div class="card">
-	   	    		<div class="front">
-			   	        <img src="http://fravahar.persiangig.com/management/Strategic%20Thinking.png" width="100%" height="200px;">
-			   	        <br><br>
-			   	        <hr>
-			   	        <h4>STRATEGIC</h4>
-		   	        </div>
-		   	    	<div class="back">
-		   	    		<p style="text-align: justify;  font-size: 14px; font-family: Arial,sans-serif;" >At Reverside, having experienced many diverse enterprise scenarios over the past ten years, we are equipped with the know-how to solve this complex riddle between the people, process and technology.</p>
-		   	    	</div> 
-	   	    	</div>
-	   	    </div>
-	   	    <div class="col-md-2 text-center" style="padding: 10px 10px 10px 10px;">
-	   			<div class="card">
-	   				<div class="front">
-	   					<img src="https://initiativeready.com/media/com_hikashop/upload/methodology.png" width="100%" height="200px;">
-		   				 <br><br>
-			   	        <hr>
-			   			<h4>ENTERPRISE</h4>
-	   				</div>
-	   				
-		   			<div class="back">
-		   				<p style="text-align: justify; font-size: 14px;">With Reverside’s proprietary enterprise assessment methodologies, we can unpack the finer points that need to be addressed with the various dimensions. The results of the assessment may necessitate change that can be fundamental in nature. Starting from service orientation of IT systems to change management and business process re-engineering, the recommendation for changes could touch all aspects of an enterprise.</p>
-		   			</div>  			
-	   			</div>
-	   		</div>
-	   		<div class="col-md-2 text-center" style="padding: 10px 10px 10px 10px;">
-	   			<div class="card">
-	   				<div class="front">
-	   					<img src="http://asiabearingco.com/best-bearing-shop-in-lucknow-kanpur-delhi-varanasi-barabanki/wp-content/uploads/2015/09/clients.png" width="100%" height="200px;">
-		   				 <br><br>
-			   	        <hr>
-				   		<h4>CONSULTING</h4>
-	   				</div>
-	   				
-	   				<div class="back">
-	   					<p style="text-align: justify; font-size: 14px;">Reverside provides its clients with the most reliable consulting experience. We are committed to long-term partnerships with our clients. We are a small team, but we have the ability to become a part of a big execution team and manage multi-year initiatives as we have done in the past. With a stress on cost engineering and quality for each solution Reverside builds, the focus has always been on our customers.</p>
-	   				</div>
-			   		
-	   			</div>
-	   		
-	   	    </div>
-	   		
-	   </div>
-
-	</div>
-
-	<!-- Container (Services Section) -->
-	<div id="services" class="container-fluid" style="height: 400px; background: silver;" >
-		<h1>Services</h1>
-	</div>
-
-	<!-- Container (Portfolio Section) -->
-	<div id="portfolio" class="container-fluid" style="height: 400px; background: white;">
-	 	<h3>PORTFOLIO</h3>
-	</div>
-
-
-
-	<!-- Container (Pricing Section) -->
-	<div id="clients" class="container-fluid" style="height: 400px; background: silver;">
-	  	<div class="row">
-	  		<div class="col-md-3">
-	  			<div class="card">
-	  				<img src="https://static.wixstatic.com/media/a83b83_30c35e15a3074211becf59ff3b153c80.png/v1/fill/w_187,h_81,al_c,q_80,usm_0.66_1.00_0.01/a83b83_30c35e15a3074211becf59ff3b153c80.webp">
-	  			</div>
-	  		</div>
-	  	</div>
-	</div>
-
-	<!-- Container (Contact Section) -->
-	<div id="contact" class="container-fluid bg-grey" style="height: 400px; background: white;">
-	  	<h3>CONTACT</h3>
-	</div>
-
-
-	</div>
+</div>
 
 <script src="script.js"></script>
 
