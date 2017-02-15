@@ -114,7 +114,7 @@
 	background-color: white;
 	transform: rotateY( 180deg );
 	z-index: 0;
-	transition: all 350ms ease;
+	transition: all 200ms ease;
 }
 
 .card-side-ctrl{
