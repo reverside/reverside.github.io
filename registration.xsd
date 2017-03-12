@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://trikwetra.co.za/registration"
+	xmlns:tns="http://trikwetra.co.za/registration"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	jaxb:version="2.1"
+    elementFormDefault="qualified">
+
+	<element name="data">
+		<complexType>
+			<sequence>
+				<element name="firstName" type="string"/>
+				<element name="lastName"  type="string"/>
+				<element name="email"     type="string"/>
+				<element name="password"  type="string"/>
+				<element name="decision"  type="string"/>
+				<element name="otp"       type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="Start">
+		<complexType>
+			<sequence>
+				<element name="firstName" type="string"/>
+				<element name="lastName"  type="string"/>
+				<element name="email"     type="string"/>
+				<element name="password"  type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+
+	<!--<complexType name="start">-->
+		<!--<sequence>-->
+			<!--<element name="firstName" type="string"/>-->
+			<!--<element name="lastName"  type="string"/>-->
+			<!--<element name="email"     type="string"/>-->
+			<!--<element name="password"  type="string"/>-->
+		<!--</sequence>-->
+	<!--</complexType>-->
+
+
+	
+   <element name="reviewQuery">
+		<complexType>
+			<sequence>
+				<element name="firstName" type="string"/>
+				<element name="lastName"  type="string"/>
+				<element name="email"     type="string"/>
+				<element name="decision"  type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="reviewCommand">
+		<complexType>
+			<sequence>
+				<element name="decision"  type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="verifyQuery">
+		<complexType>
+			<sequence>
+				<element name="email" type="string"/>
+				<element name="otp"   type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="verifyCommand">
+		<complexType>
+			<sequence>
+				<element name="otp"   type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+	
+</schema>
